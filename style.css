@@ -1,0 +1,178 @@
+body {
+    background: linear-gradient(to bottom, #fc03ad 0%, #d303fc 50%, #1c03fc 100%);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif; /* Fonte do site */
+}
+
+.container {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3); /* Fundo semitransparente */
+    border-radius: 15px;
+}
+.containe2 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3); /* Fundo semitransparente */
+    border-radius: 15px;
+}
+.container3 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3); /* Fundo semitransparente */
+    border-radius: 15px;
+}
+.container4 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3); /* Fundo semitransparente */
+    border-radius: 15px;
+}
+.container5 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3); /* Fundo semitransparente */
+    border-radius: 15px;
+}
+.container100 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3); /* Fundo semitransparente */
+    border-radius: 15px;
+}
+
+.imagem img {
+    max-width: 100px; /* Tamanho ajustado da imagem */
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.mensagem {
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre botões */
+}
+
+.bnt {
+    display: flex; /* Usa Flexbox para facilitar o alinhamento */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    text-align: center;
+    width: 90px;
+    height: 2em;
+    background-color: #3f024b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.bnt:hover {
+    background-color: #580368; /* Efeito hover */
+}
+p{
+    text-align: justify;
+    color: white;
+    font-size: 17px;
+}
+.container3{
+    display: none;
+}
+.fotoAdrielen{
+    height: 300px;
+}
+audio{
+    top: 0%;
+}
+h2{
+    color: red;
+    font-weight: 700;
+}
+.equacao{
+    height: 200px;
+}
+h1{
+    color: rgb(255, 0, 64);
+}
+.textofinal{
+    color: black;
+    font-size: 12px;
+}
+.escolha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+}
+.mensagemCorreta {
+    display: none;
+}
+.mensagemErrada{
+    display: none;
+}
+.RC:checked ~ .mensagemCorreta{
+    display: block;
+
+}
+.RE:checked ~ .mensagemErrada{
+    display: block;
+
+}
+.RC{
+    display: none;
+}
+.RE{
+    display: none;
+}
+.container100{
+    display: none;
+}
+
+
+
